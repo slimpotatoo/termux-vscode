@@ -82,9 +82,3 @@ echo "================================================================"
 # Boot immediately after installation finishes
 proot-distro login debian -- code-server --auth none --port 8080
 EOF
-
-# Make it executable
-# chmod +x dev.sh
-
-# Add alias to bashrc for easy access
-# echo "alias code='~/dev.sh'" >> ~/.bashrc
